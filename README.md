@@ -1,4 +1,4 @@
-# UHF-guided Segmentation
+# UHF-Guided Segmentation
 This repository provides a PyTorch implementation of the following paper:
 > **Transferring Ultrahigh-Field Representations for Intensity-Guided Brain Segmentation of Low-Field Magnetic Resonance Imaging**<br>
 > [Kwanseok Oh](https://scholar.google.co.kr/citations?user=EMYHaHUAAAAJ&hl=ko)<sup>1, \*</sup>, [Jieun Lee](https://scholar.google.co.kr/citations?user=RV0DwyEAAAAJ&hl=ko)<sup>1, \*</sup>, [Da-Woon Heo](https://scholar.google.co.kr/citations?user=WapMdZ8AAAAJ&hl=ko)<sup>1</sup>, [Dinggang Shen](https://scholar.google.co.kr/citations?user=v6VYQC8AAAAJ&hl=ko)<sup>3, 4</sup><br/>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
@@ -61,4 +61,16 @@ python main.py --type 3D --mode test --net F --gpu 1 --path_dataset_IBSR /PATH_I
 4. To implement all consecutive steps for training and testing at once, you can also use the following command:
 ```
 python main.py --type 3D --mode all --gpu 1 --path_dataset_Paired /PATH_PAIRED --path_dataset_IBSR /PATH_IBSR --base UNet --base_encoder /PATH_BASE/UNET_ENCODER.pth --base_decoder /PATH_BASE/UNET_DECODER.pth
+```
+
+## Citation
+If you find this work useful for your research, please cite the following paper:
+
+```
+@article{oh2024transferring,
+  title={Transferring Ultrahigh-Field Representations for Intensity-Guided Brain Segmentation of Low-Field Magnetic Resonance Imaging},
+  author={Oh, Kwanseok and Lee, Jieun and Heo, Da-Woon and Shen, Dinggang and Suk, Heung-Il},
+  journal={arXiv preprint arXiv:2402.08409},
+  year={2024}
+}
 ```
