@@ -1,12 +1,11 @@
 # UHF-Guided Segmentation
 This repository provides a PyTorch implementation of the following paper:
 > **Transferring Ultrahigh-Field Representations for Intensity-Guided Brain Segmentation of Low-Field Magnetic Resonance Imaging**<br>
-> [Kwanseok Oh](https://scholar.google.co.kr/citations?user=EMYHaHUAAAAJ&hl=ko)<sup>1,\*</sup>, [Jieun Lee](https://scholar.google.co.kr/citations?user=RV0DwyEAAAAJ&hl=ko)<sup>1,\*</sup>, [Da-Woon Heo](https://scholar.google.co.kr/citations?user=WapMdZ8AAAAJ&hl=ko)<sup>1</sup>, [Dinggang Shen](https://scholar.google.co.kr/citations?user=v6VYQC8AAAAJ&hl=ko)<sup>3,4</sup><br/>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
+> [Kwanseok Oh](https://scholar.google.co.kr/citations?user=EMYHaHUAAAAJ&hl=ko)<sup>1</sup>, [Jieun Lee](https://scholar.google.co.kr/citations?user=RV0DwyEAAAAJ&hl=ko)<sup>1</sup>, [Da-Woon Heo](https://scholar.google.co.kr/citations?user=WapMdZ8AAAAJ&hl=ko)<sup>1</sup>, [Dinggang Shen](https://scholar.google.co.kr/citations?user=v6VYQC8AAAAJ&hl=ko)<sup>3,4</sup><br/>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
 > (<sup>1</sup>Department of Artificial Intelligence, Korea University) <br/>
 > (<sup>2</sup>Department of Brain and Cognitive Engineering, Korea University) <br/>
 > (<sup>3</sup>School of Biomedical Engineering, ShanghaiTech University) <br/>
 > (<sup>4</sup>Shanghai United Imaging Intelligence Co., Ltd) <br/>
-> (* indicates equal contribution) <br/>
 > Published in MICCAI2022: ["A Novel Knowledge Keeper Network for 7T-Free but 7T-Guided Brain Tissue Segmentation"](https://link.springer.com/chapter/10.1007/978-3-031-16443-9_32) <br/>
 > Official Journal Version: https://arxiv.org/pdf/2402.08409 <br/>
 > 
